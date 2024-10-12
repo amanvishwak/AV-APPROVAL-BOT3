@@ -11,8 +11,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get('BOT_TOKEN', '7025013171:AAEG_5OQ2uBhknzbAzhcVec2MtVMFnVQ3Pc') # ⚠️ Required
 
     # database config
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://aman991932:aman@cluster0.qp6vfyg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # ⚠️ Required
-
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://aman991932:aman@cluster0.18hv15a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    
     # Other Config 
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "AV_APPROVER_BOT") # ⚠️ Required
     BOT_UPTIME  = time.time()
