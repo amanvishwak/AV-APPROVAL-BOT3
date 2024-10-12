@@ -1,7 +1,12 @@
-pyrogram==2.0.106
+pyrofork==2.3.43
 TgCrypto==1.2.5
 motor==3.1.2
 dnspython==2.3.0
 hachoir==3.2.0
 Pillow==9.5.0 
 pytz==2023.3
+Flask==1.1.2
+gunicorn==20.1.0
+Jinja2==3.0.3
+werkzeug==2.0.2
+itsdangerous==2.0.1
